@@ -24,12 +24,9 @@ Un navigateur web moderne (Chrome, Firefox, Edge, etc.) pour exécuter l'animati
    ```
 2. Ouvrez le fichier `index.html` dans un navigateur.
 
-## Capture d'écran
-![Aperçu de l'animation](screenshot.png) *(Ajoutez une capture d'écran ici)*
 
 ## Auteur
-- [Votre Nom]
+- [Fatima Belgazem]
 
-## Licence
-Ce projet est sous licence MIT. Vous pouvez l'utiliser et le modifier librement.
+
 
