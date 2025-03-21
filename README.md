@@ -26,7 +26,7 @@ Un navigateur web moderne (Chrome, Firefox, Edge, etc.) pour exécuter l'animati
 
 
 ## Auteur
-- [Fatima Belgazem]
+- Fatima Belgazem
 
 
 
