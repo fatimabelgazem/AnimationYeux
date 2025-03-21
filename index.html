@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeux</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="tete">
+        <div class="boite">
+            <div class="oeuil"></div>
+            <div class="oeuil"></div>
+        </div>
+        <div class="bouche"></div>
+    </div>
+    <script>
+    document.querySelector('body').addEventListener('mousemove',animation)
+        function animation(){
+            const oeuil=document.querySelectorAll('.oeuil');
+            oeuil.forEach(function(oeuil){
+                let x=(oeuil.getBoundingClientRect().left)+(oeuil.clientWidth/2);
+                let y=(oeuil.getBoundingClientRect().top)+(oeuil.clientHeight/2);
+                var rad=Math.atan2(event.pageX-x,event.pageY-y);
+                var rot=(rad*(100/Math.PI)*-1)+270;
+                oeuil.style.transform="rotate("+rot+"deg)"
+
+            })
+    
+        }
+    </script>
+</body>
+</html>

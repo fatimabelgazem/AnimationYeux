@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vh;
+    background-color: #18f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 230px;
+}
+.tete{
+    height: 40vh;
+    background-color: rgb(212, 189, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* max-width: 350px; */
+    border-radius: 70%;
+}
+.boite{
+    display:flex;
+}
+.oeuil{
+    background-color: #fff;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.5);
+    border-radius: 50%;
+}
+.oeuil::before{
+    content:'';
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    height: 25px;
+    width: 25px;
+    background-color: #000;
+    border-radius: 50%;
+    transition:translate(-50%,-50%);
+    border:9px solid rgb(88, 53, 24);
+}
+.bouche{
+    height: 40px;
+    width: 30px;
+    border-radius:60%;
+    background-color: rgb(238, 29, 14);
+}
